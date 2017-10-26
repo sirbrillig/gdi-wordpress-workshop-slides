@@ -1,0 +1,25 @@
+.reveal li code,
+.reveal p code {
+  color: #f44336;
+}
+
+.reveal img.no-bg {
+  border: 0;
+  background: none;
+  box-shadow: none;
+}
+
+.reveal span.note {
+  font-size: 0.7em;
+}
+
+.reveal strong {
+  color: #f44336;
+}
+
+.reveal a:visited,
+.reveal a:active,
+.reveal a:hover,
+.reveal a {
+  color: #f54437;
+}

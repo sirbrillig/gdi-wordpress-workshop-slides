@@ -7,32 +7,11 @@
 		<title>GDI WordPress Workshop</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/serif.css">
+		<link rel="stylesheet" href="css/custom.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
-
-		<!-- Custom styles -->
-		<style>
-.reveal li code,
-.reveal p code {
-	color: #FFD54F;
-}
-
-.reveal img.no-bg {
-	border: 0;
-	background: none;
-	box-shadow: none;
-}
-
-.reveal span.note {
-	font-size: 0.7em;
-}
-
-					.reveal strong {
-						color: #FFD54F;
-					}
-		</style>
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -194,9 +173,21 @@ These free sites have **limitations**:
 
 				<section data-markdown>
 					<textarea data-template>
+						### wp-admin
+
+						The Back end is also sometimes called **wp-admin**.
+
+						Another way to get there is to add `wp-admin` to the URL:
+
+						eg: http://my.website/wp-admin
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
 						### WordPress started out for Blogs
 
-						WordPress was originally made for blogs. That has changed, but it explains many things.
+						WordPress was originally made for blogs. That has changed, but it explains a lot about how it works.
 					</textarea>
 				</section>
 
@@ -250,7 +241,7 @@ These free sites have **limitations**:
 					<textarea data-template>
 						### Editing a Post
 
-						There are two ways to edit a posts, from the **Front** end or the **Back** end.
+						There are two ways to edit a post, from the **Front** end or the **Back** end.
 					</textarea>
 				</section>
 
@@ -322,19 +313,17 @@ These free sites have **limitations**:
 
 				<section data-markdown>
 					<textarea data-template>
-						### Making a new Page
+						### Pages
 
-						<img src="img/wp-new-page-button.png">
-					</textarea>
-				</section>
+						Pages are very similar to Posts.
 
-				<section data-markdown>
-					<textarea data-template>
-						### The Page Editor
+						One difference is that their URL does not include a date.
 
-						The Page editor looks almost the same as the Post editor.
+						Page: http://my.website/my-friend-atrus/
 
-						The main difference is that Posts can have **Tags**.
+						Post: http://my.website/2017/03/09/hello-world/
+
+						The other difference is that Posts can have **Tags**.
 					</textarea>
 				</section>
 
@@ -382,17 +371,8 @@ These free sites have **limitations**:
 
 						Add a tag to your post!
 
-						(Remember that you have to edit the post first.)
-					</textarea>
-				</section>
-
-				<section data-markdown>
-					<textarea data-template>
-						### Add a Page
-
-						Let's add a Page!
-
-						You can make one about your best friend.
+						(Remember that you have to edit the post.)
+						(Remember that you have to press "Update".)
 					</textarea>
 				</section>
 
@@ -402,7 +382,7 @@ These free sites have **limitations**:
 
 						Both Posts and Pages can have a **Featured Image**, which is an image shown prominently alongside the content.
 
-						The exact place it is shown varied by theme.
+						The exact place it is shown varies by theme.
 					</textarea>
 				</section>
 
@@ -421,12 +401,16 @@ These free sites have **limitations**:
 						### Add a Featured Image
 
 						Let's add a Featured Image to a post!
+
+						(Remember to press "Update"!)
 					</textarea>
 				</section>
 
 				<section data-markdown>
 					<textarea data-template>
 						### The Post Editor
+
+						😅
 
 						It is a little old and a little confusing.
 					</textarea>
@@ -453,6 +437,72 @@ These free sites have **limitations**:
 						### Gutenberg is made of Blocks
 
 						The main difference is that in Gutenberg, all content is made of **blocks**.
+
+						<img src="img/gutenberg-insert-between.gif">
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+						### Gutenberg is not ready yet
+
+						Gutenberg is still under development, but it will be in the next version of WordPress.
+
+						(You can use it today as a Plugin.)
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+						### Making a new Page
+
+						<img src="img/wp-new-page-button.png">
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+						### The Page Editor
+
+						The Page editor looks almost the same as the Post editor.
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+						### Add a Page
+
+						Let's add a Page!
+
+						You can make one about your best friend.
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+						### Linking to Pages
+
+						You'll notice that there is no way by default to find a page.
+
+						You have to make **links** to pages.
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+						### Menus
+
+						Menus are one way to link to pages.
+					</textarea>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+						### Entering the Customizer
+
+						To make a menu, we will need to use the **Customizer**.
+
+						<img src="img/wp-customizer-button.png">
 					</textarea>
 				</section>
 
